@@ -4,7 +4,7 @@
 
 # Descrição Resumida do Projeto
 
-Este projeto investiga o papel de RNAs longos não codificantes (lncRNAs) no câncer de mama triplo-negativo (TNBC) a partir de dados de RNA-seq (GSE261989). O objetivo é integrar lncRNAs em análises de expressão diferencial, redes de coexpressão baseadas em WGCNA e enriquecimento de vias biológicas, a fim de identificar hubs regulatórios e módulos gênicos associados a tratamentos experimentais (ativação do receptor de glicocorticoides por DEX, silenciamento de GATA6 por siRNA e inibição do complexo SWI/SNF por BRM014).
+Este projeto investiga o papel de RNAs longos não codificantes (lncRNAs) no câncer de mama triplo-negativo (TNBC) a partir de dados de RNA-seq com (GSE261988) e sem (GSE261989) ChIP-seq. O objetivo é integrar lncRNAs em análises de expressão diferencial, redes de coexpressão baseadas em WGCNA e enriquecimento de vias biológicas, a fim de identificar hubs regulatórios e módulos gênicos associados a tratamentos experimentais (ativação do receptor de glicocorticoides por DEX, silenciamento de GATA6 por siRNA e inibição do complexo SWI/SNF por BRM014).
 
 # Slides
 
@@ -39,6 +39,7 @@ O projeto busca responder às seguintes questões:
 
 Base de Dados | Endereço na Web | Resumo descritivo
 ----- | ----- | -----
+GEO – GSE261988 | https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE261988 | Dataset de RNA-seq com ChIP-seq da linhagem BT549 de câncer de mama triplo-negativo (TNBC), submetida a três condições experimentais: ativação do GR por dexametasona (DEX), silenciamento de GATA6 por siRNA e inibição do complexo SWI/SNF por BRM014.
 GEO – GSE261989 | https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE261989 | Dataset de RNA-seq da linhagem BT549 de câncer de mama triplo-negativo (TNBC), submetida a três condições experimentais: ativação do GR por dexametasona (DEX), silenciamento de GATA6 por siRNA e inibição do complexo SWI/SNF por BRM014.
 GENCODE – Human Release 46 | https://www.gencodegenes.org/human/release_46.html | Base de anotação genômica humana (GRCh38, versão 46), incluindo genes codificantes e não codificantes (lncRNAs), usada para integrar a expressão diferencial com elementos regulatórios.
 
